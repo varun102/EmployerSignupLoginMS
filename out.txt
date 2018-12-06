@@ -1,0 +1,117 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.ntl.topjobs:employee-registration >----------------
+[INFO] Building employee-registration 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.2:sonar (default-cli) @ employee-registration ---
+[INFO] User cache: C:\Users\Training\.sonar\cache
+[INFO] Publish mode
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=105ms
+[INFO] Server id: BF41A1F2-AWcGoR9q4jhZ2mFyOypj
+[INFO] User cache: C:\Users\Training\.sonar\cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=100ms
+[INFO] Load/download plugins (done) | time=142ms
+[INFO] Loaded core extensions: 
+[INFO] SonarQube version: 7.4.0
+[INFO] Default locale: "en_US", source code encoding: "UTF-8"
+[INFO] Process project properties
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=16ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=66ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=2022ms
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=35ms
+[INFO] Project key: com.ntl.topjobs:employee-registration
+[INFO] Project base dir: C:\Users\Training\Desktop\Project\TopJobs\employee-registration\employee-registration
+[INFO] -------------  Scan employee-registration
+[INFO] Base dir: C:\Users\Training\Desktop\Project\TopJobs\employee-registration\employee-registration
+[INFO] Working dir: C:\Users\Training\Desktop\Project\TopJobs\employee-registration\employee-registration\target\sonar
+[INFO] Source paths: pom.xml, src/main/java
+[INFO] Test paths: src/test/java
+[INFO] Source encoding: UTF-8, default locale: en_US
+[INFO] Load server rules
+[INFO] Load server rules (done) | time=374ms
+[INFO] Index files
+[INFO] Excluded sources: 
+[INFO]   *.json
+[INFO] 10 files indexed
+[INFO] 0 files ignored because of inclusion/exclusion patterns
+[INFO] Quality profile for java: NIIT
+[INFO] Quality profile for xml: Sonar way
+[INFO] Excluded sources for coverage: 
+[INFO]   sonar.test.exclusions
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=15ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=35ms
+[INFO] Java Main Files AST scan
+[INFO] 8 source files to be analyzed
+[INFO] 8/8 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=2136ms
+[INFO] Java Test Files AST scan
+[INFO] 1 source files to be analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Java Test Files AST scan (done) | time=70ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=3430ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=0ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] Property 'sonar.junit.reportsPath' is deprecated. Use property 'sonar.junit.reportPaths' instead.
+[INFO] parsing [C:\Users\Training\Desktop\Project\TopJobs\employee-registration\employee-registration\target\surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=170ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=0ms
+[INFO] Sensor SonarJavaXmlFileSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor SonarJavaXmlFileSensor [java] (done) | time=671ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=21ms
+[INFO] Sensor XML Sensor [xml]
+[WARNING] Metric 'comment_lines_data' is deprecated. Provided value is ignored.
+[INFO] Sensor XML Sensor [xml] (done) | time=193ms
+[INFO] Sensor Pitest Sensor [pitest]
+[INFO] Sensor Pitest Sensor [pitest] (done) | time=29ms
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=65ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=62ms
+[INFO] SCM provider for this project is: git
+[INFO] 10 files to be analyzed
+[INFO] 0/10 files analyzed
+[WARNING] Missing blame information for the following files:
+[WARNING]   * pom.xml
+[WARNING]   * src/main/java/com/ntl/topjobs/employeeregistration/EmployeeRegistrationApplication.java
+[WARNING]   * src/main/java/com/ntl/topjobs/employeeregistration/controller/Controller.java
+[WARNING]   * src/main/java/com/ntl/topjobs/employeeregistration/dao/Dao.java
+[WARNING]   * src/main/java/com/ntl/topjobs/employeeregistration/dao/LoginDao.java
+[WARNING]   * src/main/java/com/ntl/topjobs/employeeregistration/model/EmployerLoginDetails.java
+[WARNING]   * src/main/java/com/ntl/topjobs/employeeregistration/model/EmployerSignupDetails.java
+[WARNING]   * src/main/java/com/ntl/topjobs/employeeregistration/service/EmployeeProxyService.java
+[WARNING]   * src/main/java/com/ntl/topjobs/employeeregistration/service/ServiceClass.java
+[WARNING]   * src/test/java/com/ntl/topjobs/employeeregistration/EmployeeRegistrationApplicationTests.java
+[WARNING] This may lead to missing/broken features in SonarQube
+[INFO] 4 files had no CPD blocks
+[INFO] Calculating CPD for 4 files
+[INFO] CPD calculation finished
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 25.768 s
+[INFO] Finished at: 2018-11-29T23:58:31+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.2:sonar (default-cli) on project employee-registration: null: MojoExecutionException: NullPointerException -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
